@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Me - [Your Name]</title>
+    <title>Lefeng's homepage</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -11,6 +11,7 @@
             max-width: 800px;
             margin: 40px auto;
             padding: 20px;
+            position: relative;
         }
         h1, h2 {
             color: #333;
@@ -33,24 +34,31 @@
         a:hover {
             text-decoration: underline;
         }
+        .profile-pic {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            width: 100px;
+            height: 100px;
+            object-fit: cover;
+        }
     </style>
 </head>
 <body>
 
+    <img src="photos/duck.png" alt="LeFeng's Photo" class="profile-pic">
+    
     <div class="name">LeFeng Wang</div>
 
     <h1>About Me</h1>
-    <p>I'm an undergraduate student at <strong>Shanghai Jiao Tong University</strong>, majoring in <strong>Software Engineering</strong>. 
-       My research interests lie in applying <strong>verification techniques</strong> to computer systems, ensuring correctness and efficiency 
-       in complex software infrastructures.</p>
+    <p>I'm an undergraduate student at Shanghai Jiao Tong University, majoring in Software Engineering. 
+    My research interests lie in applying verification techniques to computer systems, ensuring correctness and efficiency in complex software infrastructures.</p>
 
-    <p>Previously, I conducted research on <strong>database management systems (DBMS)</strong>, applying <strong>formal verification</strong> to enhance query optimization, 
-       improving execution efficiency while ensuring semantic correctness. I'm interested in applying <strong>formal methods</strong> to areas like DBMS 
-       and distributed systems, and I'm actively seeking research opportunities in these fields.</p>
+    <p>Previously, I conducted research on database management systems (DBMS), applying formal verification to enhance query optimization, improving execution efficiency while ensuring semantic correctness. I'm interested in applying formal methods to areas like DBMS and distributed systems, and I'm actively seeking research opportunities in these fields.</p>
 
     <p>Feel free to check out my <a href="doc/LeFeng_Wang_CV.pdf" target="_blank">CV</a> if you're interested.</p>
 
-    <h2>Selected Projects</h2>
+    <!-- <h2>Projects</h2> -->
 
 </body>
 </html>
